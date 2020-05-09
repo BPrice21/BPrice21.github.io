@@ -1,0 +1,508 @@
+/**
+ * main.css
+ * Brandon Price
+ * The Ohio State University 2020
+ * Written during the brutally boring quarantine
+*/
+
+html,body
+{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+/* Navbar */
+
+.navbar-brand {
+    padding-left: 20px;
+}
+
+.navbar-nav {
+    padding-left: 80px;
+}
+
+.nav-link {
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 1370px) {
+    .nav-link {
+        margin: 5px;
+        font-size: 15px;
+    }
+}
+
+/* Jumbotron and Overlay 
+ * Carousel Home Page 
+ */
+
+.carousel-control-prev {
+    z-index: 60;
+}
+
+.carousel-control-next {
+    z-index: 60;
+}
+
+.carousel-inner {
+    position: relative;
+}
+
+.carousel-item {
+    height: auto;
+    z-index: 60;
+}
+
+#overlay {
+    position : absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: #003366;
+    opacity: 0.5;
+    z-index: 60;
+}
+
+#overlay-title {
+    position: absolute;
+    z-index: 70;
+    top: 18vw;
+    left: 50%;
+    margin-left: -300px;
+    width: 600px;
+    z-index: 70;
+  }
+
+#overlay-title h1 {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+#overlay-title h3 {
+    color: white;
+    text-align: center;
+    font-size: 15px;
+}
+
+@media screen and (min-width: 768px) {
+    #overlay-title {
+      top: 18vw;
+      margin-left: -300px;
+      width: 600px;
+    }
+
+    #overlay-title h1 {
+        font-size: 40px;
+    }
+
+    #overlay-title h3 {
+        font-size: 20px;
+    }
+}
+@media screen and (min-width: 992px) {
+    #overlay-title {
+      top: 18vw;
+      margin-left: -350px;
+      width: 700px;
+    }
+
+    #overlay-title h1 {
+        font-size: 60px;
+    }
+
+    #overlay-title h3 {
+        font-size: 20px;
+    }
+}
+
+/* Jumbotron and Overlay
+ * Not-Front-Page
+ */
+
+.front-cover.interior {
+    background-image: url(../images/AGSHouse.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 300px;
+}
+
+.front-cover.interior #overlay-title {
+    top: 24vw;
+}
+
+.front-cover.interior #overlay-title h1 {
+    font-size: 30px;
+}
+
+.interior #overlay-title h3 {
+    font-size: 12px;
+}
+
+@media screen and (min-width: 550px) {
+    .front-cover.interior #overlay-title {
+        top: 15vw;
+    }
+
+    .front-cover.interior #overlay-title h1 {
+        font-size: 30px;
+    }
+
+    .interior #overlay-title h3 {
+        font-size: 12px;
+    }
+}
+
+
+@media screen and (min-width: 675px) {
+    .front-cover.interior #overlay-title {
+      top: 10vw;
+      margin-left: -350px;
+      width: 700px;
+    }
+
+    .front-cover.interior #overlay-title h1 {
+        font-size: 40px;
+    }
+
+    .interior #overlay-title h3 {
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .front-cover.interior {
+      height: 500px;
+    }
+    .front-cover.interior #overlay-title {
+      top: 19vw;
+      margin-left: -350px;
+      width: 700px;
+    }
+    /* .front-cover.interior #overlay-title img {
+      width: 300px;
+    } */
+}
+
+@media screen and (min-width: 992px) {
+    .front-cover.interior #overlay-title {
+      top: 15vw;
+      margin-left: -350px;
+      width: 700px;
+    }
+
+    .front-cover.interior #overlay-title h1 {
+        font-size: 60px;
+    }
+
+    .front-cover.interior #overlay-title h3 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .front-cover.interior #overlay-title {
+      top: 11vw;
+      margin-left: -350px;
+      width: 700px;
+    }
+
+    .front-cover.interior #overlay-title h1 {
+        font-size: 60px;
+    }
+
+    .front-cover.interior #overlay-title h3 {
+        font-size: 20px;
+    }
+}
+
+/* .interior {
+    background-size: cover;
+    background-position: center center;
+    height: auto;
+    z-index: 60;
+}
+
+.interior #overlay {
+    position : absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: #003366;
+    opacity: 0.5;
+    z-index: 60;
+}
+
+.interior #overlay-title {
+    position: absolute;
+    z-index: 70;
+    top: 9vw;
+    left: 50%;
+    margin-left: -300px;
+    width: 600px;
+    z-index: 70;
+}
+
+.interior #overlay-title h1 {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+
+.interior #overlay-title h3 {
+    color: white;
+    text-align: center;
+    font-size: 13px;
+}
+
+@media screen and (min-width: 700px) {
+    .interior #overlay-title {
+      top: 10vw;
+      margin-left: -300px;
+      width: 600px;
+    }
+
+    .interior #overlay-title h1 {
+        font-size: 40px;
+    }
+
+    .interior #overlay-title h3 {
+        font-size: 20px;
+    }
+}
+@media screen and (min-width: 992px) {
+    .interior #overlay-title {
+      top: 11vw;
+      margin-left: -350px;
+      width: 700px;
+    }
+
+    .interior #overlay-title h1 {
+        font-size: 60px;
+    }
+
+    .interior #overlay-title h3 {
+        font-size: 20px;
+    }
+} */
+
+/* Front Page Body Content */
+
+.body {
+    background-color: lightgray;
+    background-size: cover;
+}
+
+.body-content {
+    position: relative;
+    background-color: white;
+    margin-top: -50px;
+    z-index: 70;
+    text-align: left;
+    padding-top: 20px;
+}
+
+@media screen and (max-width: 786px) {
+    .body-content {
+        width: 90%;
+    }
+}
+
+/* History Page Body Content */
+
+.body-content h2 {
+    text-align: center;
+}
+
+/* Front Page Photos */
+
+.front-page-photos .photos div {
+    padding: 0;
+}
+.front-page-photos .photos #photo {
+    background-size: cover !important;
+    background-position: center center;
+    width: 95%;
+    height: 80vw;
+    margin-bottom: 50px;
+}
+@media screen and (min-width: 996px) {
+    .front-page-photos #photos {
+      display: flex;
+      height: 25vw;
+      max-height: 350px;
+    }
+    .front-page-photos .photos #photo {
+      width: 32%;
+      max-height: 350px;
+    }
+    .front-page-photos .photos #photo + #photo {
+      margin-left: 14px;
+    }
+}
+
+/* Contact Page Photos */
+
+.contact-page-photos .photos div {
+    padding: 0;
+}
+
+.contact-page-photos .photos #photo {
+    background-size: cover !important;
+    background-position: center center;
+    width: 100%;
+    height: 80vw;
+    margin-bottom: 50px;
+}
+
+@media screen and (min-width: 1200px) {
+    .contact-page-photos #photo {
+        display: flex;
+        height: 25vw;
+        max-height: 500px;
+    }
+    .contact-page-photos .photos #photo {
+        width: 100%;
+        max-height: 500px;
+        margin-top: 60px;
+        margin-left: 100px;
+    }
+}
+
+.executive-board {
+    padding-left: 25px;
+}
+
+/* Join AGS Table */
+
+#table-header {
+    background-color:#003366;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+}
+
+#table-content {
+    font-size: 13px;
+}
+
+@media screen and (min-width: 768px) {
+    #table-header {
+        font-size: 18px;
+    }
+    #table-content {
+        font-size: 15px;
+    }
+}
+
+#text-center {
+    text-align: center;
+}
+
+/* Join AGS Officers */
+
+.officer-container {
+    text-align: center;
+}
+
+.officer-container #photo {
+    display: flex;
+    height: 25vw;
+    max-height: 350px;
+    padding: 0;
+}
+
+/* Social */
+
+.social-connect {
+    text-align: center;
+    padding: 30px 0 20px;
+  }
+  @media screen and (min-width: 768px) {
+    .social-connect {
+      padding: 50px 0;
+    }
+  }
+
+.social-connect h3 {
+    color:  #002857;
+}
+
+.social-icons {
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.social-icons h2 {
+    text-align: center;
+    margin: 0 0 20px;
+  }
+
+.social-icons a {
+    background-color: #002857;
+    border-radius: 50%;
+    display: inline-block;
+    font-size: 2.3rem;
+    margin-right: 10px;
+    margin-left: 10px;
+    transition: all 0.2s;
+}
+
+.social-icons #facebook:hover {
+      background-color: #3B5998;
+}
+
+.social-icons #instagram:hover {
+    background: #f09433; 
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+}
+
+.social-icons .frame {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    transition: all 0.2s;
+    text-align: center;
+}
+
+.social-icons .frame:hover {
+    color: #002857;
+} 
+
+.social-icons i {
+    position: relative;
+    top: 5px;
+    color: #fff;
+}
+
+/* Footer */
+
+footer {
+    background-color:#002857;
+}
+
+.footer-info {
+    padding: 30px 50px;
+    text-align: center;
+}
+
+.footer-info h3 {
+    color: white;
+}
+
+.footer-info a {
+    color: white;
+}
+
+#footer-bottom {
+    color: white;
+    font-size: 0.75rem; 
+}
