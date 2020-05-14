@@ -183,9 +183,6 @@ html,body
       margin-left: -350px;
       width: 700px;
     }
-    /* .front-cover.interior #overlay-title img {
-      width: 300px;
-    } */
 }
 
 @media screen and (min-width: 992px) {
@@ -219,77 +216,6 @@ html,body
         font-size: 20px;
     }
 }
-
-/* .interior {
-    background-size: cover;
-    background-position: center center;
-    height: auto;
-    z-index: 60;
-}
-
-.interior #overlay {
-    position : absolute;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    background-color: #003366;
-    opacity: 0.5;
-    z-index: 60;
-}
-
-.interior #overlay-title {
-    position: absolute;
-    z-index: 70;
-    top: 9vw;
-    left: 50%;
-    margin-left: -300px;
-    width: 600px;
-    z-index: 70;
-}
-
-.interior #overlay-title h1 {
-    color: white;
-    text-align: center;
-    font-size: 25px;
-}
-
-.interior #overlay-title h3 {
-    color: white;
-    text-align: center;
-    font-size: 13px;
-}
-
-@media screen and (min-width: 700px) {
-    .interior #overlay-title {
-      top: 10vw;
-      margin-left: -300px;
-      width: 600px;
-    }
-
-    .interior #overlay-title h1 {
-        font-size: 40px;
-    }
-
-    .interior #overlay-title h3 {
-        font-size: 20px;
-    }
-}
-@media screen and (min-width: 992px) {
-    .interior #overlay-title {
-      top: 11vw;
-      margin-left: -350px;
-      width: 700px;
-    }
-
-    .interior #overlay-title h1 {
-        font-size: 60px;
-    }
-
-    .interior #overlay-title h3 {
-        font-size: 20px;
-    }
-} */
 
 /* Front Page Body Content */
 
@@ -389,19 +315,8 @@ html,body
 
 #table-content {
     font-size: 10px;
+    text-align: center;
 }
-
-/* @media screen and (min-width: 600px) {
-    #table-header {
-        font-size: 10px;
-    }
-    #table-content {
-        font-size: 8px;
-    }
-    #row-title {
-        font-size: 15px;
-    }
-} */
 
 @media screen and (min-width: 768px) {
     #table-header {
