@@ -383,13 +383,25 @@ html,body
 #table-header {
     background-color:#003366;
     color: white;
-    font-size: 15px;
+    font-size: 10px;
     text-align: center;
 }
 
 #table-content {
-    font-size: 13px;
+    font-size: 10px;
 }
+
+/* @media screen and (min-width: 600px) {
+    #table-header {
+        font-size: 10px;
+    }
+    #table-content {
+        font-size: 8px;
+    }
+    #row-title {
+        font-size: 15px;
+    }
+} */
 
 @media screen and (min-width: 768px) {
     #table-header {
