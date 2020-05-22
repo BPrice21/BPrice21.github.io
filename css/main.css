@@ -271,6 +271,46 @@ html,body
     text-align: center;
 }
 
+/* Gallery Photos */
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+  
+.gallery-item {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+  
+.gallery-item .thumbnail {
+    width: 100%;
+    height: auto;
+}
+
+@media screen and (min-width: 786px) {
+    .gallery-item {
+        margin: 10px;
+    }
+    .gallery-item .thumbnail {
+        width: 210px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .gallery-item .thumbnail {
+        width: 290px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .gallery-item .thumbnail {
+        width: 350px;
+    }
+}
+
 /* Front Page Photos */
 
 .front-page-photos .photos div {
