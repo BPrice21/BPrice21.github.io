@@ -49,11 +49,16 @@ html,body
 
 .carousel-inner {
     position: relative;
+    display: flex;
 }
 
 .carousel-item {
     height: auto;
     z-index: 60;
+}
+
+.carousel-item img {
+    width: 100%;
 }
 
 #overlay {
