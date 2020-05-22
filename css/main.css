@@ -85,13 +85,29 @@ html,body
 #overlay-title h1 {
     color: white;
     text-align: center;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 #overlay-title h3 {
     color: white;
     text-align: center;
-    font-size: 15px;
+    font-size: 10px;
+}
+
+@media screen and (min-width: 500px) {
+    #overlay-title-carousel {
+      top: 18vw;
+      margin-left: -300px;
+      width: 600px;
+    }
+
+    #overlay-title-carousel h1 {
+        font-size: 35px;
+    }
+
+    #overlay-title-carousel h3 {
+        font-size: 15px;
+    }
 }
 
 @media screen and (min-width: 768px) {
