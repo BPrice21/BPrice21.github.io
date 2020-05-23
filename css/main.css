@@ -75,7 +75,7 @@ html,body
 #overlay-title {
     position: absolute;
     z-index: 70;
-    top: 18vw;
+    top: 15vw;
     left: 50%;
     margin-left: -300px;
     width: 600px;
@@ -85,24 +85,34 @@ html,body
 #overlay-title h1 {
     color: white;
     text-align: center;
-    font-size: 25px;
+    font-size: 27px;
 }
 
 #overlay-title h3 {
     color: white;
     text-align: center;
-    font-size: 10px;
+    font-size: 13px;
+}
+
+@media screen and (min-width: 500px) {
+    #overlay-title {
+        top: 18vw;
+    }
+    #overlay-title h1 {
+        font-size: 32px;
+    }
+    #overlay-title h3 {
+        font-size: 15px;
+    }
 }
 
 @media screen and (min-width: 600px) {
     .navbar-brand {
         padding-left: 20px;
     }
-
     #overlay-title h1 {
         font-size: 40px;
     }
-
     #overlay-title h3 {
         font-size: 18px;
     }
@@ -112,11 +122,9 @@ html,body
         margin-left: -350px;
         width: 700px;
     }
-
     #overlay-title h1 {
         font-size: 60px;
     }
-
     #overlay-title h3 {
         font-size: 20px;
     }
