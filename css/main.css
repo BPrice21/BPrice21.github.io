@@ -140,11 +140,11 @@ html,body
 }
 
 .front-cover.interior #overlay-title h1 {
-    font-size: 25px;
+    font-size: 28px;
 }
 
 .interior #overlay-title h3 {
-    font-size: 10px;
+    font-size: 12px;
 }
 
 @media screen and (min-width: 500px) {
