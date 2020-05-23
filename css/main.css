@@ -148,6 +148,9 @@ html,body
 }
 
 @media screen and (min-width: 500px) {
+    .front-cover.interior #overlay-title {
+        top: 70px;
+    }
     .front-cover.interior #overlay-title h1 {
         font-size: 40px;
     }
