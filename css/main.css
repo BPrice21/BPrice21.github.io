@@ -40,11 +40,11 @@ html,body
  */
 
 .carousel-control-prev {
-    z-index: 60;
+    z-index: 100;
 }
 
 .carousel-control-next {
-    z-index: 60;
+    z-index: 100;
 }
 
 .carousel-inner {
@@ -94,31 +94,9 @@ html,body
     font-size: 10px;
 }
 
-@media screen and (min-width: 500px) {
-    #overlay-title-carousel {
-      top: 18vw;
-      margin-left: -300px;
-      width: 600px;
-    }
-
-    #overlay-title-carousel h1 {
-        font-size: 35px;
-    }
-
-    #overlay-title-carousel h3 {
-        font-size: 15px;
-    }
-}
-
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 600px) {
     .navbar-brand {
         padding-left: 20px;
-    }
-
-    #overlay-title {
-      top: 18vw;
-      margin-left: -300px;
-      width: 600px;
     }
 
     #overlay-title h1 {
@@ -126,14 +104,13 @@ html,body
     }
 
     #overlay-title h3 {
-        font-size: 20px;
+        font-size: 18px;
     }
 }
 @media screen and (min-width: 992px) {
     #overlay-title {
-      top: 18vw;
-      margin-left: -350px;
-      width: 700px;
+        margin-left: -350px;
+        width: 700px;
     }
 
     #overlay-title h1 {
@@ -153,47 +130,27 @@ html,body
     background-image: url(../images/AGSHouse.jpg);
     background-size: cover;
     background-position: center center;
-    height: 300px;
+    height: 250px;
 }
 
 .front-cover.interior #overlay-title {
-    top: 24vw;
+    top: 80px;
+    margin-left: -350px;
+    width: 700px;
 }
 
 .front-cover.interior #overlay-title h1 {
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .interior #overlay-title h3 {
-    font-size: 12px;
+    font-size: 10px;
 }
 
-@media screen and (min-width: 550px) {
-    .front-cover.interior #overlay-title {
-        top: 15vw;
-    }
-
-    .front-cover.interior #overlay-title h1 {
-        font-size: 30px;
-    }
-
-    .interior #overlay-title h3 {
-        font-size: 12px;
-    }
-}
-
-
-@media screen and (min-width: 675px) {
-    .front-cover.interior #overlay-title {
-      top: 10vw;
-      margin-left: -350px;
-      width: 700px;
-    }
-
+@media screen and (min-width: 500px) {
     .front-cover.interior #overlay-title h1 {
         font-size: 40px;
     }
-
     .interior #overlay-title h3 {
         font-size: 16px;
     }
@@ -201,42 +158,14 @@ html,body
 
 @media screen and (min-width: 768px) {
     .front-cover.interior {
-      height: 500px;
+        height: 500px;
     }
     .front-cover.interior #overlay-title {
-      top: 19vw;
-      margin-left: -350px;
-      width: 700px;
+        top: 170px;
     }
-}
-
-@media screen and (min-width: 992px) {
-    .front-cover.interior #overlay-title {
-      top: 15vw;
-      margin-left: -350px;
-      width: 700px;
-    }
-
     .front-cover.interior #overlay-title h1 {
         font-size: 60px;
     }
-
-    .front-cover.interior #overlay-title h3 {
-        font-size: 20px;
-    }
-}
-
-@media screen and (min-width: 1200px) {
-    .front-cover.interior #overlay-title {
-      top: 11vw;
-      margin-left: -350px;
-      width: 700px;
-    }
-
-    .front-cover.interior #overlay-title h1 {
-        font-size: 60px;
-    }
-
     .front-cover.interior #overlay-title h3 {
         font-size: 20px;
     }
