@@ -268,35 +268,42 @@ html,body
     padding-bottom: 10px;
 }
 
-#contact-item {
-    width: 100%;
-    height: auto;
+.contact-item {
     padding-left: 10px;
     padding-right: 10px;
     margin-top: 5px;
     margin-bottom: 15px; 
 }
 
+.contact-item .thumbnail {
+    width: 100%;
+    height: auto;
+}
+
 @media screen and (min-width: 992px) {
     .contact-page {
         justify-content: left;
     }
-    #contact-item {
-        height: 20rem;
-        width: auto;
+    .contact-item {
         padding-left: 0;
         padding-right: 0;
         margin-top: 100px;
         margin-left: 40px;
         margin-bottom: 0px;
     }
+    .contact-item .thumbnail {
+        height: 20rem;
+        width: auto;
+    }
 }
 
 @media screen and (min-width: 1200px) {
-    #contact-item {
-        height: 25rem;
+    .contact-item {
         margin-top: 75px;
         margin-left: 50px;
+    }
+    .contact-item .thumbnail {
+        height: 25rem;
     }
 }
 
