@@ -269,8 +269,8 @@ html,body
 }
 
 #contact-item {
-    height: auto;
     width: 100%;
+    height: auto;
     padding-left: 10px;
     padding-right: 10px;
     margin-top: 5px;
